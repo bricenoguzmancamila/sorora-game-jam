@@ -20,5 +20,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Transicionar.unity
     guid: 7d928a40808164ee7bcdb5c9dd3ef06b
+  - enabled: 1
+    path: Assets/Scenes/Altar.unity
+    guid: 9e1ba9289fa2a4455bf05ac530e85272
+  - enabled: 1
+    path: Assets/Scenes/Cama.unity
+    guid: 9b392e91305094bbdaa9cb15bfafd35a
+  - enabled: 1
+    path: Assets/Scenes/CieloSueno.unity
+    guid: 400ff832add474d12a8c8dba561bd23b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

@@ -5,6 +5,7 @@ using System.Collections;
 public class DialogoSoloManager : MonoBehaviour{
     public GameObject dialogo;
     public TMP_Text textoDialogo;
+    public GameObject continuar;
     public string[] lineas;
     public float delay=1f;
     public float velocidadLetra=0.05f;
@@ -26,11 +27,12 @@ public class DialogoSoloManager : MonoBehaviour{
 
     void lineaSiguiente(){
         ++lineaActual;
-        if (lineaActual < lineas.Length){
+        if (lineaActual<lineas.Length){
             StartCoroutine(letraXLetra());
         }
         else{
             dialogo.SetActive(false);
+            continuar.SetActive(true);
         }
     }
     IEnumerator letraXLetra(){
