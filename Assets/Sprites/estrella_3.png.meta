@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3ca1e3b82506e4611975ceaf6aa89705
+guid: 84f3a3cd2e12941808f993b39f676864
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1266979202865154893
-    second: bead-pattern-2_0
+      213: -3140057463898839628
+    second: estrella_3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bead-pattern-2_0
+      name: estrella_3_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 602
-        height: 341
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b43a63b029ca6ee0800000000000000
-      internalID: -1266979202865154893
+      spriteID: 4b5eef19f564c64d0800000000000000
+      internalID: -3140057463898839628
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bead-pattern-2_0: -1266979202865154893
+      estrella_3_0: -3140057463898839628
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -14,8 +14,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cementerio.unity
     guid: 395a6713757a544349d2c325d1e9159e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Transicion.unity
     guid: 22f76ccfc31234ca1b6db3fbf7e3a8f9
+  - enabled: 1
+    path: Assets/Scenes/Transicionar.unity
+    guid: 7d928a40808164ee7bcdb5c9dd3ef06b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
