@@ -1,6 +1,7 @@
 using UnityEngine;
 public class PuzzleManager : MonoBehaviour{
     public GameObject ganaste;
+    public GameObject marco;
     private int piezasPuestas=0;
     public int totalPiezas;
 
@@ -12,5 +13,6 @@ public class PuzzleManager : MonoBehaviour{
     }
     void RompecabezasCompleto(){
         ganaste.SetActive(true);
+        marco.SetActive(true);
     }
 }

@@ -35,5 +35,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MemoryGame.unity
     guid: 49c084804303657488274b2f5f0ba980
+  - enabled: 1
+    path: Assets/Scenes/Nivel1.2.unity
+    guid: 8bb7c3bdd23d84a0b808ca76b1d37b6d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
