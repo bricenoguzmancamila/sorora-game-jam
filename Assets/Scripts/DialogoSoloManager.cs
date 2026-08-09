@@ -8,6 +8,7 @@ public class DialogoSoloManager : MonoBehaviour{
     public string[] lineas;
     public float delay=1f;
     public float velocidadLetra=0.05f;
+    public float retrasoCambio=0.5f;
     private int lineaActual=-1;
     void Start(){
         dialogo.SetActive(false);
