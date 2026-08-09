@@ -444,7 +444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FadeManager
   fadePanel: {fileID: 21273697}
   duracionFade: 1
-  siguienteEscena: 
+  siguienteEscena: DavidGenesis
   tiempoParaFadeOut: 1
 --- !u!4 &239137409
 Transform:

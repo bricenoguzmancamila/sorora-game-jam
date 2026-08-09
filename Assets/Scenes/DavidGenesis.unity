@@ -858,7 +858,7 @@ MonoBehaviour:
   delay: 1
   velocidadLetra: 0.05
   retrasoCambio: 0
-  siguienteEscena: Biblioteca
+  siguienteEscena: BibliotecaSola
   interManager: {fileID: 484370160}
 --- !u!4 &1354134987
 Transform:

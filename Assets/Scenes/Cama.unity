@@ -292,7 +292,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 848, y: 595}
+  m_SizeDelta: {x: 1500, y: 595}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &285416278
 CanvasGroup:
@@ -375,13 +375,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogoSoloManager
   dialogo: {fileID: 597395826}
   textoDialogo: {fileID: 2093648714}
-  continuar: {fileID: 1043964286}
   lineas:
   - "dulces sue\xF1os."
   - nos vemos,
   - "ma\xF1ana."
   delay: 1
   velocidadLetra: 0.05
+  retrasoCambio: 0.5
 --- !u!4 &458169866
 Transform:
   m_ObjectHideFlags: 0
