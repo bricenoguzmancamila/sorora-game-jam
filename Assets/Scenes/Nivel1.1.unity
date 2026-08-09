@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -222.33047, y: 196.71437}
+  m_AnchoredPosition: {x: 368.1546, y: -84.386215}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &198652935
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49a21318723f845ff9290ef56df6cc96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PiezaPuzzle
-  posicionCorrecta: {x: -228.9018, y: -174.1406}
+  posicionCorrecta: {x: 0, y: -68.41687}
   distanciaMax: 50
 --- !u!225 &198652936
 CanvasGroup:
@@ -206,7 +206,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 4130640169021434097, guid: 751c8d82f30e24020ab9c338730512db, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 606188737}
   - component: {fileID: 606188736}
   m_Layer: 5
-  m_Name: FondoN1
+  m_Name: FondoN1.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -371,7 +371,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6318025660455914553, guid: 079be316227cc48c3b036623774f79f0, type: 3}
+  m_Sprite: {fileID: -6253181190451499034, guid: b5b79426d64844d7f8eade12b37e8e56, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -485,13 +485,13 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 606188735}
-  - {fileID: 1960177653}
   - {fileID: 1651634243}
   - {fileID: 1354010958}
   - {fileID: 1000081282}
   - {fileID: 1657838946}
   - {fileID: 198652934}
   - {fileID: 1854978670}
+  - {fileID: 1960177653}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -535,7 +535,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 269.75977, y: 96.71437}
+  m_AnchoredPosition: {x: -364.12027, y: -219.69107}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1000081283
@@ -550,7 +550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49a21318723f845ff9290ef56df6cc96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PiezaPuzzle
-  posicionCorrecta: {x: -128.9018, y: -74.14061}
+  posicionCorrecta: {x: 100, y: 31.58313}
   distanciaMax: 50
 --- !u!225 &1000081284
 CanvasGroup:
@@ -586,7 +586,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: -6470460504253458178, guid: 45d25f09c7ea74eb886c38c7db927c59, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -684,7 +684,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 198.44385, y: 221.5699}
+  m_AnchoredPosition: {x: -364.12027, y: -84.386215}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1354010959
@@ -699,7 +699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49a21318723f845ff9290ef56df6cc96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PiezaPuzzle
-  posicionCorrecta: {x: -228.9018, y: -74.14061}
+  posicionCorrecta: {x: 0, y: 31.58315}
   distanciaMax: 50
 --- !u!225 &1354010960
 CanvasGroup:
@@ -735,7 +735,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 6937817954938267909, guid: 2eb3da5fdaf8a4bf38ff79404f3d9651, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -787,7 +787,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 169.75977, y: -31.426895}
+  m_AnchoredPosition: {x: 368.1546, y: 66.69968}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1651634244
@@ -802,7 +802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49a21318723f845ff9290ef56df6cc96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PiezaPuzzle
-  posicionCorrecta: {x: -328.9018, y: -74.14061}
+  posicionCorrecta: {x: -100, y: 31.58313}
   distanciaMax: 50
 --- !u!225 &1651634245
 CanvasGroup:
@@ -838,7 +838,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: -855298285791758126, guid: dec33475f20874f4d924df719d1a9f1e, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -890,7 +890,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 347.9467, y: -98.570145}
+  m_AnchoredPosition: {x: 368.1546, y: -219.69107}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1657838947
@@ -905,7 +905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49a21318723f845ff9290ef56df6cc96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PiezaPuzzle
-  posicionCorrecta: {x: -328.9018, y: -174.1406}
+  posicionCorrecta: {x: -100, y: -68.41687}
   distanciaMax: 50
 --- !u!225 &1657838948
 CanvasGroup:
@@ -941,7 +941,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: -4178046375966092550, guid: 76bfc335db90d482a9929c117faf9ab9, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -956,143 +956,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657838945}
-  m_CullTransparentMesh: 1
---- !u!1 &1720903416
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1720903417}
-  - component: {fileID: 1720903419}
-  - component: {fileID: 1720903418}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1720903417
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720903416}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1960177653}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.3569946, y: -0.00012207031}
-  m_SizeDelta: {x: 218.54, y: -65.75}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1720903418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720903416}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: ganaste
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3c7ad99ba4e0845038b4c6bfcb251d97, type: 2}
-  m_sharedMaterial: {fileID: 1491437001888225074, guid: 3c7ad99ba4e0845038b4c6bfcb251d97, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1720903419
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720903416}
   m_CullTransparentMesh: 1
 --- !u!1 &1753305091
 GameObject:
@@ -1209,7 +1072,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 35.818848, y: 159.90273}
+  m_AnchoredPosition: {x: -364.12027, y: 66.69968}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1854978671
@@ -1224,7 +1087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49a21318723f845ff9290ef56df6cc96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PiezaPuzzle
-  posicionCorrecta: {x: -128.9018, y: -174.1406}
+  posicionCorrecta: {x: 100, y: -68.41687}
   distanciaMax: 50
 --- !u!225 &1854978672
 CanvasGroup:
@@ -1260,7 +1123,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 3465286685962602723, guid: 29f206ce525fb4681b45979341553f71, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1327,7 +1190,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3337038689812066966, guid: 4137752af187f41c18418e51f21f6403, type: 3}
+  m_Sprite: {fileID: 5004446793348442161, guid: ecf937346fdb1414cab1a9b8acea0a62, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1356,14 +1219,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1720903417}
+  m_Children: []
   m_Father: {fileID: 667712392}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 198.44385, y: -105.87305}
-  m_SizeDelta: {x: 225.25, y: 65.75}
+  m_AnchoredPosition: {x: 5.7859497, y: -47.069595}
+  m_SizeDelta: {x: 499.25, y: 347.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

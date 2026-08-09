@@ -335,8 +335,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.8532715, y: 109.65192}
-  m_SizeDelta: {x: 528.25, y: -38.25}
+  m_AnchoredPosition: {x: 0.75, y: -0.73657227}
+  m_SizeDelta: {x: 529.75, y: -183}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &177950520
 MonoBehaviour:
@@ -392,8 +392,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 8
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -765,9 +765,14 @@ MonoBehaviour:
   textoDialogo: {fileID: 177950520}
   continuar: {fileID: 92092712}
   lineas:
-  - cumbia caletera. musica del mar.
-  - nacida en las olas.
-  - que vienen y van.
+  - "Ni cielo ni infierno. Solo lo que es... y lo que a\xFAn puede ser. "
+  - "Entre las posibilidades que nunca fueron y las que todav\xEDa esperan un nombre,
+    llamo a aquello que escucha desde el otro lado."
+  - No ofrezco sangre. No ofrezco carne. Ofrezco aquello que me sostiene.
+  - "Mi cuerpo. Mi mente. Mi coraz\xF3n. "
+  - "Que mi sue\xF1o sea el puente. Que mi recuerdo sea la puerta. "
+  - 'Miren la grieta de lo imposible. Vengan. '
+  - Y acepten esta ofrenda.
   delay: 1
   velocidadLetra: 0.05
 --- !u!4 &1597484243
@@ -823,7 +828,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1906258127}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -1028,7 +1033,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1959486806
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1046,7 +1051,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 163.81787}
+  m_AnchoredPosition: {x: 0, y: 113.49957}
   m_SizeDelta: {x: 563.5, y: 203}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1959486807

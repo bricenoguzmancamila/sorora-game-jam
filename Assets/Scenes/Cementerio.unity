@@ -1000,10 +1000,13 @@ MonoBehaviour:
   dialogo: {fileID: 1250582537}
   textoDialogo: {fileID: 198506908}
   lineas:
-  - Pater noster, qui es in caelis:sanctificetur nomen tuum;adveniat regnum tuum;
-  - fiat voluntas tua,sicut in caelo et in terra.Panem nostrum quotidianum da nobis
-    hodie;
-  - et dimitte nobis debita nostra,sicut et nos dimittimus debitoribus nostris;
+  - "Siempre habl\xE1bamos sobre qu\xE9 no har\xEDamos por nuestra familia, Leo.
+    Nunca pens\xE9 que de hecho llegar\xEDa a vivirlo. Uno nunca cree que le puede
+    pasar, no realmente."
+  - "No me disculpo por lo que voy a hacer. Vos hubieras hecho lo mismo, si te hubiera
+    tocado lo que me toc\xF3 a m\xED."
+  - "Te amo, Leo, los amo. Pero estoy cansada. Tal vez ya no queda otro ma\xF1ana
+    para m\xED, pero me asegurar\xE9 que si lo haya para ustedes."
   delay: 1.5
   velocidadLetra: 0.05
   fadePersonaje: {fileID: 1638509266}
