@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2d4b6baa4f9596445a3aadf0f56ff913
+guid: ef3b5af10fad499419fadfb4fb626753
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4303126102879984096
-    second: fondoX_0
+      213: -3807906969449810834
+    second: UntitledArtwork8_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fondoX_0
+      name: UntitledArtwork8_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 626
-        height: 371
+        x: 247
+        y: 371
+        width: 1335
+        height: 1459
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e95fd14466c7bb30800000000000000
-      internalID: 4303126102879984096
+      spriteID: e64b53459c8972bc0800000000000000
+      internalID: -3807906969449810834
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fondoX_0: 4303126102879984096
+      UntitledArtwork8_0: -3807906969449810834
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
