@@ -1,6 +1,5 @@
 using UnityEngine;
-public class MovingBackgroundSprite : MonoBehaviour
-{
+public class MovingBackgroundSprite : MonoBehaviour{
     public float speed=2f;
     public float destroyX=-12f;
     void Update()

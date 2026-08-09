@@ -1,7 +1,6 @@
 // Este script va en un GameObject vacío (por ejemplo "Spawner") en la escena.
 using UnityEngine;
-public class BackgroundSpawner : MonoBehaviour
-{
+public class BackgroundSpawner : MonoBehaviour{
     public GameObject[] spritePrefabs;
     public float spawnInterval=2f;
     public float spawnX=12f;

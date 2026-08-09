@@ -2,8 +2,7 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 
-public class DialogoManager : MonoBehaviour
-{
+public class DialogoManager : MonoBehaviour{
     public GameObject protagonista;
     public GameObject dialogo;
     public TMP_Text textoDialogo;
