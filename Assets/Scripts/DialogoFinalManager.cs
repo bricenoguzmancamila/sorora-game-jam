@@ -9,7 +9,9 @@ public class DialogoFinalManager : MonoBehaviour{
     public string[] lineas;
     public float delay=1f;
     public float velocidadLetra=0.05f;
+    public float retrasoCambio=0.5f;
     public string siguienteEscena;
+    public InterManager interManager;
     private int lineaActual=-1;
 
     void Start(){
@@ -18,7 +20,7 @@ public class DialogoFinalManager : MonoBehaviour{
     }
     void Update(){
         if (Input.GetKeyDown(KeyCode.Space)&&lineaActual>=0){
-            lineaSiguiente();
+            Invoke(nameof(lineaSiguiente),retrasoCambio);
         }
     }
     void inicializacion(){
@@ -29,6 +31,9 @@ public class DialogoFinalManager : MonoBehaviour{
     void lineaSiguiente(){
         ++lineaActual;
         if (lineaActual<lineas.Length){
+            if (lineaActual==lineas.Length-1){
+                interManager.Bloquear();
+            }
             StartCoroutine(letraXLetra());
         }else{
             SceneManager.LoadScene(siguienteEscena);
