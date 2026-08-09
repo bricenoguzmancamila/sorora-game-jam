@@ -30,19 +30,10 @@ EditorBuildSettings:
     path: Assets/Scenes/CieloSueno.unity
     guid: 400ff832add474d12a8c8dba561bd23b
   - enabled: 1
-    path: Assets/Scenes/Cielo2.unity
-    guid: fc0633c07e80541ea9450fe7288f408f
+    path: Assets/Scenes/Biblioteca.unity
+    guid: 655795616c176f34bbbbd88aef5c57ab
   - enabled: 1
-    path: Assets/Scenes/Cielo3.unity
-    guid: b578dcd851c1743f4b59a9b99bf7e7b3
-  - enabled: 1
-    path: Assets/Scenes/Cielo4.unity
-    guid: 050679d6663954d13b0d4ffcd6623e2f
-  - enabled: 1
-    path: Assets/Scenes/MundoDavid.unity
-    guid: dc3cb0442996e4f26a6e8de344a3db8a
-  - enabled: 1
-    path: Assets/Scenes/Nivel1.1.unity
-    guid: 304963459697048658d63f810d28355c
+    path: Assets/Scenes/MemoryGame.unity
+    guid: 49c084804303657488274b2f5f0ba980
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
