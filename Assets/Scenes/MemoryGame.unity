@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 82404584}
   - component: {fileID: 82404583}
   - component: {fileID: 82404582}
+  - component: {fileID: 82404585}
   m_Layer: 5
   m_Name: card_diamond (1)
   m_TagString: Untagged
@@ -200,7 +201,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 82404583}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 82404585}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: OnCardClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &82404583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,6 +252,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82404580}
   m_CullTransparentMesh: 1
+--- !u!114 &82404585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82404580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31f200d6ae8d20459310351d6dfa41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  cardID: diamond
+  frontSprite: {fileID: 6508584282874457130, guid: 8fb11ea9b50700a4d860fefc257f58b6, type: 3}
+  backSprite: {fileID: -8246103488371625927, guid: 9212e84a04223b14e9bc6457a5668436, type: 3}
 --- !u!1 &88471889
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,6 +279,7 @@ GameObject:
   - component: {fileID: 88471893}
   - component: {fileID: 88471892}
   - component: {fileID: 88471891}
+  - component: {fileID: 88471894}
   m_Layer: 5
   m_Name: card_joker
   m_TagString: Untagged
@@ -320,7 +349,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 88471892}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 88471894}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: OnCardClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &88471892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,6 +400,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 88471889}
   m_CullTransparentMesh: 1
+--- !u!114 &88471894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88471889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31f200d6ae8d20459310351d6dfa41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  cardID: joker
+  frontSprite: {fileID: -9142489271246089162, guid: 06ecbad233143fb46a99fd89ba901f28, type: 3}
+  backSprite: {fileID: -8246103488371625927, guid: 9212e84a04223b14e9bc6457a5668436, type: 3}
 --- !u!1 &157926371
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,6 +427,7 @@ GameObject:
   - component: {fileID: 157926375}
   - component: {fileID: 157926374}
   - component: {fileID: 157926373}
+  - component: {fileID: 157926376}
   m_Layer: 5
   m_Name: card_hearts5
   m_TagString: Untagged
@@ -440,7 +497,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 157926374}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 157926376}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: OnCardClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &157926374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -479,6 +548,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 157926371}
   m_CullTransparentMesh: 1
+--- !u!114 &157926376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157926371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31f200d6ae8d20459310351d6dfa41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  cardID: hearts5
+  frontSprite: {fileID: -3815875299781695610, guid: 7271dc32c5fb65941ad9e7aa51b4fd8c, type: 3}
+  backSprite: {fileID: -8246103488371625927, guid: 9212e84a04223b14e9bc6457a5668436, type: 3}
 --- !u!1 &265735211
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,7 +592,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3b694f7ad4d3d4e95dce83abf7fe3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MemoryGameManager
-  cardBack: {fileID: 0}
+  cards:
+  - {fileID: 437412731}
+  - {fileID: 1355163002}
+  - {fileID: 533179442}
+  - {fileID: 1484134944}
+  - {fileID: 776768094}
+  - {fileID: 82404585}
+  - {fileID: 157926376}
+  - {fileID: 1082579271}
+  - {fileID: 88471894}
+  - {fileID: 538293014}
+  - {fileID: 1505893514}
+  - {fileID: 2012630562}
 --- !u!4 &265735213
 Transform:
   m_ObjectHideFlags: 0
@@ -536,6 +632,7 @@ GameObject:
   - component: {fileID: 437412730}
   - component: {fileID: 437412729}
   - component: {fileID: 437412728}
+  - component: {fileID: 437412731}
   m_Layer: 5
   m_Name: card_club2
   m_TagString: Untagged
@@ -605,7 +702,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 437412729}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 437412731}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: OnCardClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &437412729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -644,6 +753,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 437412726}
   m_CullTransparentMesh: 1
+--- !u!114 &437412731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437412726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31f200d6ae8d20459310351d6dfa41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  cardID: club2
+  frontSprite: {fileID: 6474192781578853444, guid: 02b24107d8d56944a9b50499b2ef9d8e, type: 3}
+  backSprite: {fileID: -8246103488371625927, guid: 9212e84a04223b14e9bc6457a5668436, type: 3}
 --- !u!1 &533179437
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,6 +780,7 @@ GameObject:
   - component: {fileID: 533179441}
   - component: {fileID: 533179440}
   - component: {fileID: 533179439}
+  - component: {fileID: 533179442}
   m_Layer: 5
   m_Name: card_diamond3
   m_TagString: Untagged
@@ -725,7 +850,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 533179440}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 533179442}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: OnCardClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &533179440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -764,6 +901,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533179437}
   m_CullTransparentMesh: 1
+--- !u!114 &533179442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533179437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31f200d6ae8d20459310351d6dfa41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  cardID: diamond3
+  frontSprite: {fileID: -546224587682798978, guid: 4a782f4090f12164da8e043bad09da7c, type: 3}
+  backSprite: {fileID: -8246103488371625927, guid: 9212e84a04223b14e9bc6457a5668436, type: 3}
 --- !u!1 &538293009
 GameObject:
   m_ObjectHideFlags: 0
@@ -776,6 +928,7 @@ GameObject:
   - component: {fileID: 538293013}
   - component: {fileID: 538293012}
   - component: {fileID: 538293011}
+  - component: {fileID: 538293014}
   m_Layer: 5
   m_Name: card_joker (1)
   m_TagString: Untagged
@@ -845,7 +998,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 538293012}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 538293014}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: OnCardClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &538293012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -884,6 +1049,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538293009}
   m_CullTransparentMesh: 1
+--- !u!114 &538293014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538293009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31f200d6ae8d20459310351d6dfa41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  cardID: joker
+  frontSprite: {fileID: -9142489271246089162, guid: 06ecbad233143fb46a99fd89ba901f28, type: 3}
+  backSprite: {fileID: -8246103488371625927, guid: 9212e84a04223b14e9bc6457a5668436, type: 3}
 --- !u!1 &569640049
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,6 +1247,7 @@ GameObject:
   - component: {fileID: 776768093}
   - component: {fileID: 776768092}
   - component: {fileID: 776768091}
+  - component: {fileID: 776768094}
   m_Layer: 5
   m_Name: card_diamond
   m_TagString: Untagged
@@ -1136,7 +1317,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 776768092}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 776768094}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: OnCardClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &776768092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1175,6 +1368,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 776768089}
   m_CullTransparentMesh: 1
+--- !u!114 &776768094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776768089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31f200d6ae8d20459310351d6dfa41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  cardID: diamond
+  frontSprite: {fileID: 6508584282874457130, guid: 8fb11ea9b50700a4d860fefc257f58b6, type: 3}
+  backSprite: {fileID: -8246103488371625927, guid: 9212e84a04223b14e9bc6457a5668436, type: 3}
 --- !u!1 &1082579266
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,6 +1395,7 @@ GameObject:
   - component: {fileID: 1082579270}
   - component: {fileID: 1082579269}
   - component: {fileID: 1082579268}
+  - component: {fileID: 1082579271}
   m_Layer: 5
   m_Name: card_hearts5 (1)
   m_TagString: Untagged
@@ -1256,7 +1465,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1082579269}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1082579271}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: OnCardClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1082579269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1295,6 +1516,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082579266}
   m_CullTransparentMesh: 1
+--- !u!114 &1082579271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082579266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31f200d6ae8d20459310351d6dfa41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  cardID: hearts5
+  frontSprite: {fileID: -3815875299781695610, guid: 7271dc32c5fb65941ad9e7aa51b4fd8c, type: 3}
+  backSprite: {fileID: -8246103488371625927, guid: 9212e84a04223b14e9bc6457a5668436, type: 3}
 --- !u!1 &1347971167
 GameObject:
   m_ObjectHideFlags: 0
@@ -1382,6 +1618,7 @@ GameObject:
   - component: {fileID: 1355163001}
   - component: {fileID: 1355163000}
   - component: {fileID: 1355162999}
+  - component: {fileID: 1355163002}
   m_Layer: 5
   m_Name: card_club2 (1)
   m_TagString: Untagged
@@ -1451,7 +1688,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1355163000}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1355163002}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: OnCardClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1355163000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1490,6 +1739,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355162997}
   m_CullTransparentMesh: 1
+--- !u!114 &1355163002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355162997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31f200d6ae8d20459310351d6dfa41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  cardID: club2
+  frontSprite: {fileID: 6474192781578853444, guid: 02b24107d8d56944a9b50499b2ef9d8e, type: 3}
+  backSprite: {fileID: -8246103488371625927, guid: 9212e84a04223b14e9bc6457a5668436, type: 3}
 --- !u!1 &1484134939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1502,6 +1766,7 @@ GameObject:
   - component: {fileID: 1484134943}
   - component: {fileID: 1484134942}
   - component: {fileID: 1484134941}
+  - component: {fileID: 1484134944}
   m_Layer: 5
   m_Name: card_diamond3 (1)
   m_TagString: Untagged
@@ -1571,7 +1836,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1484134942}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1484134944}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: OnCardClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1484134942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1610,6 +1887,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484134939}
   m_CullTransparentMesh: 1
+--- !u!114 &1484134944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484134939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31f200d6ae8d20459310351d6dfa41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  cardID: diamond3
+  frontSprite: {fileID: -546224587682798978, guid: 4a782f4090f12164da8e043bad09da7c, type: 3}
+  backSprite: {fileID: -8246103488371625927, guid: 9212e84a04223b14e9bc6457a5668436, type: 3}
 --- !u!1 &1505893509
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,6 +1914,7 @@ GameObject:
   - component: {fileID: 1505893513}
   - component: {fileID: 1505893512}
   - component: {fileID: 1505893511}
+  - component: {fileID: 1505893514}
   m_Layer: 5
   m_Name: card_spades
   m_TagString: Untagged
@@ -1691,7 +1984,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1505893512}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1505893514}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: OnCardClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1505893512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1730,6 +2035,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505893509}
   m_CullTransparentMesh: 1
+--- !u!114 &1505893514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505893509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31f200d6ae8d20459310351d6dfa41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  cardID: spades
+  frontSprite: {fileID: -1263950724519715293, guid: 8021f259bcf4415478ba8b01efa2d220, type: 3}
+  backSprite: {fileID: -8246103488371625927, guid: 9212e84a04223b14e9bc6457a5668436, type: 3}
 --- !u!1 &1927021805
 GameObject:
   m_ObjectHideFlags: 0
@@ -1933,6 +2253,7 @@ GameObject:
   - component: {fileID: 2012630561}
   - component: {fileID: 2012630560}
   - component: {fileID: 2012630559}
+  - component: {fileID: 2012630562}
   m_Layer: 5
   m_Name: card_spades (1)
   m_TagString: Untagged
@@ -2002,7 +2323,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2012630560}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2012630562}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: OnCardClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2012630560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2041,6 +2374,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2012630557}
   m_CullTransparentMesh: 1
+--- !u!114 &2012630562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012630557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31f200d6ae8d20459310351d6dfa41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  cardID: spades
+  frontSprite: {fileID: -1263950724519715293, guid: 8021f259bcf4415478ba8b01efa2d220, type: 3}
+  backSprite: {fileID: -8246103488371625927, guid: 9212e84a04223b14e9bc6457a5668436, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

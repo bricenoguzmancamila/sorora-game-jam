@@ -3,53 +3,61 @@ using UnityEngine.UI;
 
 public class Card : MonoBehaviour
 {
-    private Image image;
-    private Sprite frontSprite;
+    public string cardID;
 
-    public bool isMatched = false;
-    public bool isFaceUp = false;
+    public Sprite frontSprite;
+    public Sprite backSprite;
+
+    private Image image;
+    private bool isFlipped = false;
+    private bool isMatched = false;
 
     private MemoryGameManager gameManager;
 
-    private void Awake()
+    void Start()
     {
         image = GetComponent<Image>();
 
-        // Guardar la imagen original
-        frontSprite = image.sprite;
+        // Al inicio mostrar la carta real
+        image.sprite = frontSprite;
 
-        // Buscar el Game Manager
-        gameManager = FindFirstObjectByType<MemoryGameManager>();
-
-        // Agregar el click automáticamente
-        GetComponent<Button>().onClick.AddListener(OnCardClicked);
+        gameManager = FindObjectOfType<MemoryGameManager>();
     }
 
-    private void Start()
+    public void OnCardClicked()
     {
-        // Empezar con la carta boca abajo
-        Hide(gameManager.GetCardBack());
+        // No permitir tocar si el juego aún no empezó
+        if (!gameManager.CanPlay())
+            return;
+
+        // No permitir tocar cartas ya volteadas o encontradas
+        if (isFlipped || isMatched)
+            return;
+
+        Flip();
+
+        gameManager.CardSelected(this);
     }
 
-    private void OnCardClicked()
-    {
-        gameManager.SelectCard(this);
-    }
-
-    public void Show()
+    public void Flip()
     {
         image.sprite = frontSprite;
-        isFaceUp = true;
+        isFlipped = true;
     }
 
-    public void Hide(Sprite backSprite)
+    public void Hide()
     {
         image.sprite = backSprite;
-        isFaceUp = false;
+        isFlipped = false;
     }
 
-    public Sprite GetFrontSprite()
+    public void Match()
     {
-        return frontSprite;
+        isMatched = true;
+    }
+
+    public string GetCardID()
+    {
+        return cardID;
     }
 }
