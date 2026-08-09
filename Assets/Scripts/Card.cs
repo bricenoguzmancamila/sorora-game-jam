@@ -18,8 +18,12 @@ public class Card : MonoBehaviour
     {
         image = GetComponent<Image>();
 
-        // Al inicio mostrar la carta real
-        image.sprite = frontSprite;
+        // Al inicio mostrar la parte de atrás de la carta
+        image.sprite = backSprite;
+
+        // La carta empieza escondida
+        isFlipped = false;
+        isMatched = false;
 
         gameManager = FindObjectOfType<MemoryGameManager>();
     }
@@ -59,5 +63,14 @@ public class Card : MonoBehaviour
     public string GetCardID()
     {
         return cardID;
+    }
+
+    // Reinicia la carta cuando el jugador selecciona YES
+    public void ResetCard()
+    {
+        isFlipped = false;
+        isMatched = false;
+
+        image.sprite = frontSprite;
     }
 }
