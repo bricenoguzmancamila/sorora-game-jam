@@ -313,7 +313,7 @@ GameObject:
   - component: {fileID: 177950521}
   - component: {fileID: 177950520}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: textLiminal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -335,8 +335,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.75, y: -0.73657227}
-  m_SizeDelta: {x: 529.75, y: -183}
+  m_AnchoredPosition: {x: -7.1509438, y: -0.73657227}
+  m_SizeDelta: {x: 545.5519, y: -183}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &177950520
 MonoBehaviour:
@@ -368,7 +368,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -424,7 +424,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: -47.650326, z: -21.177956, w: -46.326694}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -517,7 +517,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &882112653
+--- !u!1 &529900582
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -525,8 +525,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 882112655}
-  - component: {fileID: 882112654}
+  - component: {fileID: 529900584}
+  - component: {fileID: 529900583}
   m_Layer: 0
   m_Name: FadeManager
   m_TagString: Untagged
@@ -534,13 +534,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &882112654
+--- !u!114 &529900583
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882112653}
+  m_GameObject: {fileID: 529900582}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 19e5edd9ab94e4530a1a382693ba56c1, type: 3}
@@ -549,17 +549,17 @@ MonoBehaviour:
   fadePanel: {fileID: 1265563773}
   duracionFade: 1
   siguienteEscena: Cama
-  tiempoParaFadeOut: 1
---- !u!4 &882112655
+  dialogo: {fileID: 2005291248}
+--- !u!4 &529900584
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882112653}
+  m_GameObject: {fileID: 529900582}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 569.7185, y: 414.54, z: 0}
+  m_LocalPosition: {x: 458.76266, y: 75.41029, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -820,64 +820,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1597484241
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1597484243}
-  - component: {fileID: 1597484242}
-  m_Layer: 0
-  m_Name: DialogoManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1597484242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1597484241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d63088df2d6a4f9a9c097d2ced3512e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DialogoSoloManager
-  dialogo: {fileID: 1959486805}
-  textoDialogo: {fileID: 177950520}
-  lineas:
-  - "Ni cielo ni infierno. Solo lo que es... y lo que a\xFAn puede ser. "
-  - "Entre las posibilidades que nunca fueron y las que todav\xEDa esperan un nombre,
-    llamo a aquello que escucha desde el otro lado."
-  - No ofrezco sangre. No ofrezco carne. Ofrezco aquello que me sostiene.
-  - "Mi cuerpo. Mi mente. Mi coraz\xF3n. "
-  - "Que mi sue\xF1o sea el puente. Que mi recuerdo sea la puerta. "
-  - 'Miren la grieta de lo imposible. Vengan. '
-  - Y acepten esta ofrenda.
-  delay: 1
-  velocidadLetra: 0.05
-  retrasoCambio: 0.5
---- !u!4 &1597484243
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1597484241}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 569.7185, y: 414.54, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1924543797
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,7 +970,7 @@ GameObject:
   - component: {fileID: 1959486808}
   - component: {fileID: 1959486807}
   m_Layer: 5
-  m_Name: DialogoBox
+  m_Name: cajaDialogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1104,6 +1046,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959486805}
   m_CullTransparentMesh: 1
+--- !u!1 &2005291247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2005291249}
+  - component: {fileID: 2005291248}
+  m_Layer: 0
+  m_Name: Dialogo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2005291248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005291247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ffaa0b9913e646aa80e49d08089a5c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogo
+  cajaDialogo: {fileID: 1959486805}
+  textoDialogo: {fileID: 177950520}
+  lineas:
+  - hasta
+  - manana
+  - si dios
+  - quiere
+  - que
+  - descanses
+  - bien
+  - '!!'
+  velocidadLetra: 0.05
+--- !u!4 &2005291249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005291247}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 466.80457, y: 96.66071, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1111,5 +1109,5 @@ SceneRoots:
   - {fileID: 1063582416}
   - {fileID: 114225707}
   - {fileID: 312725264}
-  - {fileID: 1597484243}
-  - {fileID: 882112655}
+  - {fileID: 529900584}
+  - {fileID: 2005291249}
