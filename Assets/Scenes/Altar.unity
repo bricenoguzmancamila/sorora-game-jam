@@ -243,7 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -622,7 +622,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7606817706087733107, guid: 0281d463b804b4f708b7bc9c03bb354b, type: 3}
+  m_Sprite: {fileID: 1109392419380449574, guid: 9db9d6ac24fa9429eb41064771585c1d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -750,7 +750,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!225 &1265563773
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1051,8 +1051,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 113.49957}
-  m_SizeDelta: {x: 563.5, y: 203}
+  m_AnchoredPosition: {x: 0, y: -191.77187}
+  m_SizeDelta: {x: 694.8787, y: 146.5944}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1959486807
 CanvasGroup:
@@ -1086,7 +1086,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3337038689812066966, guid: 4137752af187f41c18418e51f21f6403, type: 3}
+  m_Sprite: {fileID: -674808114879304649, guid: ee35cf590a01a4092a1e0a18031f517c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
