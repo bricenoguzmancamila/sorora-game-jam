@@ -2,8 +2,7 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 
-public class Dialogo : MonoBehaviour
-{
+public class Dialogo : MonoBehaviour{
     /* definiciones */
     public GameObject cajaDialogo;
     public GameObject personajeCara;
