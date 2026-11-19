@@ -119,7 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &198506906
+--- !u!1 &97551277
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,24 +127,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 198506907}
-  - component: {fileID: 198506909}
-  - component: {fileID: 198506908}
+  - component: {fileID: 97551278}
+  - component: {fileID: 97551280}
+  - component: {fileID: 97551279}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: cajaTexto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &198506907
+--- !u!224 &97551278
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 198506906}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 97551277}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -153,16 +153,16 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.8532715, y: 109.65192}
-  m_SizeDelta: {x: 528.25, y: -38.25}
+  m_AnchoredPosition: {x: -11.7, y: 0}
+  m_SizeDelta: {x: 413.8675, y: -188.4385}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &198506908
+--- !u!114 &97551279
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 198506906}
+  m_GameObject: {fileID: 97551277}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -176,8 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pater noster, qui es in caelis:sanctificetur nomen tuum;adveniat regnum
-    tuum;fiat voluntas tua
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c7ad99ba4e0845038b4c6bfcb251d97, type: 2}
   m_sharedMaterial: {fileID: 1491437001888225074, guid: 3c7ad99ba4e0845038b4c6bfcb251d97, type: 2}
@@ -187,7 +186,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -211,8 +210,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 8
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -243,19 +242,19 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 1.2342529, y: -47.650326, z: -21.177956, w: -46.326694}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &198506909
+--- !u!222 &97551280
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 198506906}
+  m_GameObject: {fileID: 97551277}
   m_CullTransparentMesh: 1
 --- !u!1 &704253790
 GameObject:
@@ -289,7 +288,7 @@ MonoBehaviour:
   fadePanel: {fileID: 1673993188}
   duracionFade: 1
   siguienteEscena: Altar
-  tiempoParaFadeOut: 1
+  dialogo: {fileID: 2070102144}
 --- !u!4 &704253792
 Transform:
   m_ObjectHideFlags: 0
@@ -323,7 +322,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1250582538
 RectTransform:
   m_ObjectHideFlags: 0
@@ -336,13 +335,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 198506907}
+  - {fileID: 97551278}
   m_Father: {fileID: 1768667008}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 163.81787}
-  m_SizeDelta: {x: 563.5, y: 203}
+  m_AnchorMin: {x: 0.56624997, y: 0.40640178}
+  m_AnchorMax: {x: 0.56624997, y: 0.40640178}
+  m_AnchoredPosition: {x: -201.87665, y: 178.66827}
+  m_SizeDelta: {x: 487.5195, y: 114.356}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1250582539
 MonoBehaviour:
@@ -364,7 +363,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3337038689812066966, guid: 4137752af187f41c18418e51f21f6403, type: 3}
+  m_Sprite: {fileID: -674808114879304649, guid: ee35cf590a01a4092a1e0a18031f517c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -549,7 +548,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1638509263
 RectTransform:
   m_ObjectHideFlags: 0
@@ -566,7 +565,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7, y: -156.42}
+  m_AnchoredPosition: {x: 112.8, y: -73.1}
   m_SizeDelta: {x: 179.4062, y: 282.154}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1638509264
@@ -644,7 +643,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1670383165}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -654,7 +653,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.000030517578, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1670383167
 MonoBehaviour:
@@ -712,7 +711,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!225 &1673993188
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -958,8 +957,8 @@ RectTransform:
   m_Children:
   - {fileID: 1670383166}
   - {fileID: 1250582538}
-  - {fileID: 1638509263}
   - {fileID: 1673993191}
+  - {fileID: 1638509263}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -977,6 +976,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2070102143}
   - component: {fileID: 2070102142}
+  - component: {fileID: 2070102144}
   m_Layer: 0
   m_Name: DialogoManager
   m_TagString: Untagged
@@ -996,21 +996,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b11fb749507d454cb9e3745f0f77d47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
-  protagonista: {fileID: 1638509262}
-  dialogo: {fileID: 1250582537}
-  textoDialogo: {fileID: 198506908}
-  lineas:
-  - "Siempre habl\xE1bamos sobre qu\xE9 no har\xEDamos por nuestra familia, Leo.
-    Nunca pens\xE9 que de hecho llegar\xEDa a vivirlo. Uno nunca cree que le puede
-    pasar, no realmente."
-  - "No me disculpo por lo que voy a hacer. Vos hubieras hecho lo mismo, si te hubiera
-    tocado lo que me toc\xF3 a m\xED."
-  - "Te amo, Leo, los amo. Pero estoy cansada. Tal vez ya no queda otro ma\xF1ana
-    para m\xED, pero me asegurar\xE9 que si lo haya para ustedes."
-  delay: 1.5
-  velocidadLetra: 0.05
-  fadePersonaje: {fileID: 1638509266}
-  duracionFade: 1.5
 --- !u!4 &2070102143
 Transform:
   m_ObjectHideFlags: 0
@@ -1026,6 +1011,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2070102144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070102141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ffaa0b9913e646aa80e49d08089a5c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogo
+  cajaDialogo: {fileID: 1250582537}
+  personajeCara: {fileID: 1638509262}
+  textoDialogo: {fileID: 97551279}
+  lineas:
+  - "Genesis: Leo... amor, \xBFd\xF3nde est\xE1s? "
+  - "David, cari\xF1o... "
+  - "Sof\xEDa, mi ni\xF1a... "
+  - "Perd\xF3nenme por lo que voy a hacer."
+  - 
+  velocidadLetra: 0.05
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
