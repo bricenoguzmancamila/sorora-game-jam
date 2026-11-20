@@ -291,8 +291,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1500, y: 595}
+  m_AnchoredPosition: {x: 0, y: 2.6702}
+  m_SizeDelta: {x: 1024, y: 532.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &285416278
 CanvasGroup:
@@ -302,7 +302,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285416276}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -354,6 +354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 458169866}
   - component: {fileID: 458169865}
+  - component: {fileID: 458169867}
   m_Layer: 0
   m_Name: DialogoManager
   m_TagString: Untagged
@@ -373,15 +374,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d63088df2d6a4f9a9c097d2ced3512e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogoSoloManager
-  dialogo: {fileID: 597395826}
-  textoDialogo: {fileID: 2093648714}
-  lineas:
-  - "dulces sue\xF1os."
-  - nos vemos,
-  - "ma\xF1ana."
-  delay: 1
-  velocidadLetra: 0.05
-  retrasoCambio: 0.5
 --- !u!4 &458169866
 Transform:
   m_ObjectHideFlags: 0
@@ -397,6 +389,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &458169867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458169864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ffaa0b9913e646aa80e49d08089a5c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogo
+  cajaDialogo: {fileID: 597395826}
+  personajeCara: {fileID: 597395826}
+  textoDialogo: {fileID: 2093648714}
+  lineas:
+  - "Dulces sue\xF1os"
+  spritesPorLinea: []
+  velocidadLetra: 0.05
 --- !u!1 &597395826
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,7 +605,7 @@ MonoBehaviour:
   fadePanel: {fileID: 285416278}
   duracionFade: 1
   siguienteEscena: CieloSueno
-  tiempoParaFadeOut: 1
+  dialogo: {fileID: 458169867}
 --- !u!4 &1086811225
 Transform:
   m_ObjectHideFlags: 0
@@ -658,10 +669,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1024, y: 700}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -806,6 +817,7 @@ GameObject:
   - component: {fileID: 1483918970}
   - component: {fileID: 1483918969}
   - component: {fileID: 1483918968}
+  - component: {fileID: 1483918971}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -830,7 +842,7 @@ Camera:
   m_GameObject: {fileID: 1483918967}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 4
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -887,6 +899,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1483918971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483918967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &1638800579
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,7 +1000,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3269279359094584176, guid: 38ab80e6a05854b75af86566ba2d8524, type: 3}
+  m_Sprite: {fileID: 7746574236754813902, guid: 37bb824d1743091468662f69b7cbab16, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
