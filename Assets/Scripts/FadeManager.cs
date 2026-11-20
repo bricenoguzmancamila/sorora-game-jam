@@ -6,7 +6,7 @@ public class FadeManager : MonoBehaviour{
     public CanvasGroup fadePanel;
     public float duracionFade = 1f;
     public string siguienteEscena;
-    public Dialogo dialogo;
+    public DialogoBase dialogo;
 
     void Start(){
         fadePanel.alpha = 1f;
