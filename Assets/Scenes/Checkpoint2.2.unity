@@ -238,8 +238,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FadeManager
   fadePanel: {fileID: 1324177560}
-  duracionFade: 1
-  siguienteEscena: DavidGenesis
+  duracionFade: 0
+  siguienteEscena: LabN2
   dialogo: {fileID: 1087083130}
 --- !u!4 &479224833
 Transform:

@@ -70477,7 +70477,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 15
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 8020143640844766479, guid: 360ccdb6fae1047a4ba3c92c040e7ec4, type: 3}
+  m_Sprite: {fileID: 91149932237339877, guid: d401dc1dec2cb3e4685807b6f1f252bc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -77758,8 +77758,13 @@ MonoBehaviour:
   - {fileID: -8542714221510812255, guid: 878163fd3fd614147b2a0d9c1b74fa4a, type: 3}
   framesPorSegundo: 8
   colliderSolido: {fileID: 1258428700}
+<<<<<<< Updated upstream
   fade: {fileID: 2031796198}
   escenaSiguiente: LabN2
+=======
+  fade: {fileID: 0}
+  escenaSiguiente: CheckPoint2
+>>>>>>> Stashed changes
   panelGanaste: {fileID: 0}
   mensajeSinLlave: {fileID: 0}
   sonidoAbrir: {fileID: 0}
