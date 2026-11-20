@@ -70073,18 +70073,13 @@ MonoBehaviour:
   esperaEntrePuntos: 1
   framesPorSegundo: 8
   arriba:
-  - {fileID: -5962389079421231736, guid: 360ccdb6fae1047a4ba3c92c040e7ec4, type: 3}
-  - {fileID: -5962389079421231736, guid: 360ccdb6fae1047a4ba3c92c040e7ec4, type: 3}
+  - {fileID: 116371600537129528, guid: 510be2556f8604ea68948ff6ffa7622b, type: 3}
   abajo:
   - {fileID: 8020143640844766479, guid: 360ccdb6fae1047a4ba3c92c040e7ec4, type: 3}
-  - {fileID: 8020143640844766479, guid: 360ccdb6fae1047a4ba3c92c040e7ec4, type: 3}
-  - {fileID: -5962389079421231736, guid: 360ccdb6fae1047a4ba3c92c040e7ec4, type: 3}
   izquierda:
-  - {fileID: -6251682230944352461, guid: 360ccdb6fae1047a4ba3c92c040e7ec4, type: 3}
+  - {fileID: -1122804366250351479, guid: ae1fb4a87718546edb14c571ed83e0f3, type: 3}
   derecha:
-  - {fileID: -1259408508766424310, guid: 360ccdb6fae1047a4ba3c92c040e7ec4, type: 3}
-  - {fileID: -1259408508766424310, guid: 360ccdb6fae1047a4ba3c92c040e7ec4, type: 3}
-  - {fileID: 2788568348960109317, guid: 360ccdb6fae1047a4ba3c92c040e7ec4, type: 3}
+  - {fileID: -1843394657120366978, guid: f1e08d3d31ed545b89488a37da07bdb2, type: 3}
   voltearDerechaParaIzquierda: 1
 --- !u!58 &1015726458
 CircleCollider2D:
@@ -84643,21 +84638,28 @@ MonoBehaviour:
   velocidad: 3
   framesPorSegundo: 8
   arriba:
-  - {fileID: -5885192488116543869, guid: 34ac187dae7684f18b366a1fd52643e6, type: 3}
-  - {fileID: -904407995116886486, guid: 34ac187dae7684f18b366a1fd52643e6, type: 3}
+  - {fileID: -6124754738996565366, guid: 565fb2bea321a4a9581e2023780511a3, type: 3}
+  - {fileID: 2004240246670195682, guid: 565fb2bea321a4a9581e2023780511a3, type: 3}
+  - {fileID: -5187494377730464993, guid: 565fb2bea321a4a9581e2023780511a3, type: 3}
+  - {fileID: 4386139804700134651, guid: 565fb2bea321a4a9581e2023780511a3, type: 3}
   abajo:
-  - {fileID: -5885192488116543869, guid: 34ac187dae7684f18b366a1fd52643e6, type: 3}
-  - {fileID: -904407995116886486, guid: 34ac187dae7684f18b366a1fd52643e6, type: 3}
+  - {fileID: -5827232365736948846, guid: 52ae9e32b67134736a2cb0269ad8a03e, type: 3}
+  - {fileID: 6671954275845878760, guid: 52ae9e32b67134736a2cb0269ad8a03e, type: 3}
+  - {fileID: 2313601986933959156, guid: 52ae9e32b67134736a2cb0269ad8a03e, type: 3}
+  - {fileID: 2975941559320005212, guid: 52ae9e32b67134736a2cb0269ad8a03e, type: 3}
+  - {fileID: -4125574087727105572, guid: 52ae9e32b67134736a2cb0269ad8a03e, type: 3}
+  - {fileID: 3377418500526260092, guid: 52ae9e32b67134736a2cb0269ad8a03e, type: 3}
   izquierda:
-  - {fileID: 6522085804002711794, guid: 8351463ee5f144e36803bf91d8cca7c4, type: 3}
-  - {fileID: -894260320481585128, guid: 8351463ee5f144e36803bf91d8cca7c4, type: 3}
-  - {fileID: -2756071630785730935, guid: 8351463ee5f144e36803bf91d8cca7c4, type: 3}
-  - {fileID: -8326945611050905475, guid: 8351463ee5f144e36803bf91d8cca7c4, type: 3}
+  - {fileID: 1224908834829175430, guid: 059d9d7e145dd43699c86aa2e1ce92a5, type: 3}
+  - {fileID: 1525865940831597488, guid: 059d9d7e145dd43699c86aa2e1ce92a5, type: 3}
+  - {fileID: -129283435137389834, guid: 059d9d7e145dd43699c86aa2e1ce92a5, type: 3}
+  - {fileID: 8225151379472955955, guid: 059d9d7e145dd43699c86aa2e1ce92a5, type: 3}
+  - {fileID: 5495434648238342207, guid: 059d9d7e145dd43699c86aa2e1ce92a5, type: 3}
   derecha:
-  - {fileID: -8282799481760627595, guid: 49636528a7e8b4572b64992e5c06a07c, type: 3}
-  - {fileID: -178631922407855160, guid: 49636528a7e8b4572b64992e5c06a07c, type: 3}
-  - {fileID: -7215602685523166511, guid: 49636528a7e8b4572b64992e5c06a07c, type: 3}
-  - {fileID: 0}
+  - {fileID: 7060099319547985441, guid: e30e7198977c745e19d4794d758dd835, type: 3}
+  - {fileID: -2429802209088418848, guid: e30e7198977c745e19d4794d758dd835, type: 3}
+  - {fileID: -4013669043139444309, guid: e30e7198977c745e19d4794d758dd835, type: 3}
+  - {fileID: -1388269090687268923, guid: e30e7198977c745e19d4794d758dd835, type: 3}
   voltearDerechaParaIzquierda: 0
 --- !u!70 &1466075841
 CapsuleCollider2D:
@@ -95234,7 +95236,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1747490611
 MonoBehaviour:
   m_ObjectHideFlags: 0
