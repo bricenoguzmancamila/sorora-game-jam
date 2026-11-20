@@ -1137,7 +1137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FadeManager
   fadePanel: {fileID: 1519502053}
   duracionFade: 1
-  siguienteEscena: Cama
+  siguienteEscena: Checkpoint2.2
   dialogo: {fileID: 1537011876}
 --- !u!4 &1673306798
 Transform:

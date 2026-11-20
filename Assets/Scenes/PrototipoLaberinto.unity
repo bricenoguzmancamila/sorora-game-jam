@@ -77758,13 +77758,8 @@ MonoBehaviour:
   - {fileID: -8542714221510812255, guid: 878163fd3fd614147b2a0d9c1b74fa4a, type: 3}
   framesPorSegundo: 8
   colliderSolido: {fileID: 1258428700}
-<<<<<<< Updated upstream
   fade: {fileID: 2031796198}
-  escenaSiguiente: LabN2
-=======
-  fade: {fileID: 0}
   escenaSiguiente: CheckPoint2
->>>>>>> Stashed changes
   panelGanaste: {fileID: 0}
   mensajeSinLlave: {fileID: 0}
   sonidoAbrir: {fileID: 0}
@@ -107258,7 +107253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FadeLaberinto
   fadePanel: {fileID: 1776189403}
   duracionFade: 1
-  siguienteEscena: LabN2
+  siguienteEscena: Checkpoint2
 --- !u!4 &2031796199
 Transform:
   m_ObjectHideFlags: 0

@@ -80,5 +80,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LabN2.unity
     guid: 09a26a89c34ae40e7b7c2bcd86330576
+  - enabled: 1
+    path: Assets/Scenes/Nivel3.unity
+    guid: af45736673d2d514f8d02ec4c5b4f66d
+  - enabled: 1
+    path: Assets/Scenes/LabN3.unity
+    guid: 169ba1be9ef4ac944bcedc5f6a3b2069
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

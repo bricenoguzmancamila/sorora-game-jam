@@ -1173,7 +1173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FadeManager
   fadePanel: {fileID: 521325082}
   duracionFade: 1
-  siguienteEscena: Prototipo Laberinto
+  siguienteEscena: PrototipoLaberinto
   dialogo: {fileID: 1293506958}
 --- !u!4 &1721147656
 Transform:

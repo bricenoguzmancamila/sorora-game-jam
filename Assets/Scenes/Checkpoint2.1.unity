@@ -1079,18 +1079,6 @@ MonoBehaviour:
   - 'Pintaba rosas, pintaba el cielo, '
   - "y mam\xE1 lo besaba, mintiendo, , "
   - "diciendo que ten\xEDa talento.  "
-  - "Pero el pobre ni\xF1o creci\xF3 y le crey\xF3, "
-  - "nadie lo entend\xEDa, nadie lo quer\xEDa. "
-  - 'Cuatro pinceles, cuatro paredes.  '
-  - "Hasta que un d\xEDa un solecito lleg\xF3, "
-  - "lo envolvi\xF3 en calor. "
-  - "\xA1Qu\xE9 empalagoso es el amor!  "
-  - "Pero aqu\xED viene lo mejor.  "
-  - 'Del amor al odio, pasaremos al rencor,  '
-  - "cuando el talento supera toda ficci\xF3n,  "
-  - "cuando el talento supera toda ficci\xF3n,  "
-  - "cuando amarga al coraz\xF3n  "
-  - 'y hace llorar a los dos.  '
   spritesPorLinea:
   - {fileID: -2062379067841663539, guid: d4578d50447be8946aedc28c0a3b1786, type: 3}
   - {fileID: 2943428301102570107, guid: d2c77bdd64e3fee45a5b105ebe5fda17, type: 3}
