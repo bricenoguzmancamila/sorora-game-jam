@@ -5,23 +5,26 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(SpriteRenderer))]
 public class Puerta : MonoBehaviour
 {
-    [Header("Animación")]
-    [SerializeField] private Sprite[] frames;
+    [Header("animacion")]
+    [SerializeField] private Sprite[] frames;            // los 5 frames de la puerta, en orden
     [SerializeField] private float framesPorSegundo = 8f;
 
-    [Header("Colisión")]
+    [Header("colision")]
     [SerializeField] private Collider2D colliderSolido;
 
-    [Header("Al salir")]
+    [Header("salir")]
+    [SerializeField] private FadeLaberinto fade;
     [SerializeField] private string escenaSiguiente = "";
-    [SerializeField] private GameObject panelGanaste;
+    [SerializeField] private GameObject panelGanaste; 
 
-    [Header("Opcionales")]
-    [SerializeField] private GameObject mensajeSinLlave;
+    [Header("op")]
+    [SerializeField] private GameObject mensajeSinLlave; 
     [SerializeField] private AudioClip sonidoAbrir;
 
     private SpriteRenderer sr;
-    private bool abriendo, abierta, saliendo;
+    private bool abriendo = false;
+    private bool abierta = false;
+    private bool saliendo = false;
 
     void Awake()
     {
@@ -36,8 +39,10 @@ public class Puerta : MonoBehaviour
         InventarioJugador inv = otro.GetComponentInParent<InventarioJugador>();
         if (inv == null || abriendo || abierta) return;
 
-        if (inv.tieneLlave) StartCoroutine(Abrir());
-        else if (mensajeSinLlave != null) StartCoroutine(MostrarMensaje());
+        if (inv.tieneLlave)
+            StartCoroutine(Abrir());
+        else if (mensajeSinLlave != null)
+            StartCoroutine(MostrarMensaje());
     }
 
     void OnTriggerStay2D(Collider2D otro)
@@ -49,7 +54,9 @@ public class Puerta : MonoBehaviour
     IEnumerator Abrir()
     {
         abriendo = true;
-        if (sonidoAbrir != null) AudioSource.PlayClipAtPoint(sonidoAbrir, Camera.main.transform.position);
+
+        if (sonidoAbrir != null)
+            AudioSource.PlayClipAtPoint(sonidoAbrir, Camera.main.transform.position);
 
         foreach (Sprite f in frames)
         {
@@ -58,6 +65,7 @@ public class Puerta : MonoBehaviour
         }
 
         if (colliderSolido != null) colliderSolido.enabled = false;
+
         yield return new WaitForSeconds(0.4f);
         abierta = true;
         abriendo = false;
@@ -73,8 +81,15 @@ public class Puerta : MonoBehaviour
     void Salir()
     {
         saliendo = true;
-        if (!string.IsNullOrEmpty(escenaSiguiente))
+
+        if (fade != null)
+        {
+            fade.IrASiguienteEscena();
+        }
+        else if (!string.IsNullOrEmpty(escenaSiguiente))
+        {
             SceneManager.LoadScene(escenaSiguiente);
+        }
         else if (panelGanaste != null)
         {
             panelGanaste.SetActive(true);

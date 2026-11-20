@@ -4,6 +4,10 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent), typeof(SpriteRenderer))]
 public class EnemigoIA : MonoBehaviour
 {
+
+    [Header("Atrapar")]
+    [SerializeField] private Transform puntoInicio;
+    private Vector3 posInicialEnemigo;
     [Header("persec")]
     [SerializeField] private Transform jugador; 
     [SerializeField] private float distanciaVision = 5f;
@@ -43,6 +47,7 @@ public class EnemigoIA : MonoBehaviour
             GameObject j = GameObject.FindWithTag("player");
             if (j != null) jugador = j.transform;
         }
+        posInicialEnemigo = transform.position;
     }
 
     void Update()
@@ -115,10 +120,20 @@ public class EnemigoIA : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D otro)
-{
-    if (otro.CompareTag("player"))
-        UnityEngine.SceneManagement.SceneManager.LoadScene(
-            UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
-}
+    {
+        if (!otro.CompareTag("Player") || puntoInicio == null) return;
+        Rigidbody2D rb = otro.attachedRigidbody;
+        if (rb != null)
+        {
+            rb.position = puntoInicio.position;
+            rb.linearVelocity = Vector2.zero;
+        }
+        else
+        {
+            otro.transform.position = puntoInicio.position;
+        }
+        agente.Warp(posInicialEnemigo);
+        agente.ResetPath();
+    }
 
 }
