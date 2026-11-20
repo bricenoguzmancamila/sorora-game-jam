@@ -151,10 +151,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1985959095}
+  - {fileID: 1146255724}
   - {fileID: 842170748}
   - {fileID: 965585349}
   - {fileID: 521325079}
-  - {fileID: 1146255724}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a30dd90b431408344a0a822d91b125bc, type: 3}
+  m_Sprite: {fileID: -2062379067841663539, guid: d4578d50447be8946aedc28c0a3b1786, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -386,8 +386,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 30, y: 31}
-  m_SizeDelta: {x: 1039.0334, y: 817.2358}
+  m_AnchoredPosition: {x: 362.64, y: -158.44}
+  m_SizeDelta: {x: 298.726, y: 297.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &949918229
 GameObject:
@@ -515,7 +515,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -381, y: -120.31}
+  m_AnchoredPosition: {x: -378, y: -158.45}
   m_SizeDelta: {x: 299.316, y: 297.1402}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &965585350
@@ -593,7 +593,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 47, y: -217}
+  m_AnchoredPosition: {x: -7, y: -212.23}
   m_SizeDelta: {x: 670.1759, y: 113.3021}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1146255725
@@ -896,7 +896,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -37, y: 3}
+  m_AnchoredPosition: {x: -39, y: -9}
   m_SizeDelta: {x: 413.8675, y: -188.4385}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1289739292
@@ -1035,42 +1035,91 @@ MonoBehaviour:
   - {fileID: 965585351}
   - {fileID: 842170746}
   lineas:
-  - nombre: '???:'
+  - nombre: 'Ojo Derecho:'
     indicePersonaje: 1
-    sprite: {fileID: 0}
-    texto: Has pronunciado palabras que los vivos olvidaron.
+    sprite: {fileID: 2943428301102570107, guid: d2c77bdd64e3fee45a5b105ebe5fda17, type: 3}
+    texto: "Ser\xE1 un gusto verte interpretar esta obra, peque\xF1a mortal."
   - nombre: 'Genesis:'
     indicePersonaje: 0
     sprite: {fileID: -16853467791702525, guid: fafecbf20ae1c7f4bb3e15278dd12738, type: 3}
-    texto: "Por favor... devu\xE9lvemelos."
-  - nombre: '???:'
+    texto: "T\xFA\u2026 \xBFt\xFA eres \xE9l?"
+  - nombre: 'OJO DERECHO:'
+    indicePersonaje: 1
+    sprite: {fileID: 8975775950176280296, guid: 42e5f4398ff0e2540835accd5050784d, type: 3}
+    texto: "Oh, soy una parte de \xE9l."
+  - nombre: 'OJO DERECHO:'
     indicePersonaje: 1
     sprite: {fileID: 0}
-    texto: No devuelvo. Intercambio.
+    texto: "Solo estoy aqu\xED para iniciar esta obra\u2026\r\n"
+  - nombre: 'OJO DERECHO:'
+    indicePersonaje: 1
+    sprite: {fileID: 2943428301102570107, guid: d2c77bdd64e3fee45a5b105ebe5fda17, type: 3}
+    texto: 'y presentarte a nuestro invitado estrella.
+
+'
+  - nombre: 'David:'
+    indicePersonaje: 1
+    sprite: {fileID: -7771566635380947588, guid: 11745391d0ccd7f42ac8bd20018f4f08, type: 3}
+    texto: ...
+  - nombre: 'Genesis: '
+    indicePersonaje: 0
+    sprite: {fileID: 0}
+    texto: "\xA1David, hijo!\n"
+  - nombre: 'OJO DERECHO:'
+    indicePersonaje: 1
+    sprite: {fileID: -2062379067841663539, guid: d4578d50447be8946aedc28c0a3b1786, type: 3}
+    texto: "Oh, oh\u2026 No tan r\xE1pido."
+  - nombre: 'OJO DERECHO:'
+    indicePersonaje: 1
+    sprite: {fileID: 2943428301102570107, guid: d2c77bdd64e3fee45a5b105ebe5fda17, type: 3}
+    texto: "Primero necesitar\xE1s pasar nuestros juegos."
+  - nombre: 'Genesis:'
+    indicePersonaje: 0
+    sprite: {fileID: -3417181516518175305, guid: 587cdad27963f964887653645926d629, type: 3}
+    texto: "\xBFQu\xE9 es lo que necesito hacer?\r\n"
+  - nombre: 'OJO DERECHO: '
+    indicePersonaje: 1
+    sprite: {fileID: -2062379067841663539, guid: d4578d50447be8946aedc28c0a3b1786, type: 3}
+    texto: "\xBFQuieres conocer las reglas? Realmente est\xE1s desesperada por un
+      nuevo amanecer."
+  - nombre: 'OJO DERECHO:'
+    indicePersonaje: 1
+    sprite: {fileID: 8975775950176280296, guid: 42e5f4398ff0e2540835accd5050784d, type: 3}
+    texto: 'El sendero no se encuentra
+
+      entre las razones de una amistad rota.'
+  - nombre: 'OJO DERECHO:'
+    indicePersonaje: 1
+    sprite: {fileID: 0}
+    texto: 'Tres puertas esperan que las recuerdes, ante el palpitar de tres llaves
+      pacientes.  '
+  - nombre: 'OJO DERECHO: '
+    indicePersonaje: 1
+    sprite: {fileID: -2062379067841663539, guid: d4578d50447be8946aedc28c0a3b1786, type: 3}
+    texto: "Si todo en tus manos es posible, \xBFqu\xE9 importa cu\xE1n profunda
+      sea la oscuridad? "
+  - nombre: 'OJO DERECHO: '
+    indicePersonaje: 1
+    sprite: {fileID: 0}
+    texto: "Cuando sus emociones le nieguen la salida, s\xE9 t\xFA aquello que le
+      recuerde d\xF3nde mirar. "
+  - nombre: 'Genesis:'
+    indicePersonaje: 0
+    sprite: {fileID: -16853467791702525, guid: fafecbf20ae1c7f4bb3e15278dd12738, type: 3}
+    texto: "Tranquilo, mi ni\xF1o, mam\xE1 ya est\xE1 aqu\xED. "
+  - nombre: 'OJO DERECHO:'
+    indicePersonaje: 1
+    sprite: {fileID: 2943428301102570107, guid: d2c77bdd64e3fee45a5b105ebe5fda17, type: 3}
+    texto: "\xA1Pero qu\xE9 dulzura emana nuestra nueva protagonista! "
   - nombre: 'Genesis:'
     indicePersonaje: 0
     sprite: {fileID: 0}
-    texto: "No me importa lo que cueste. T\xF3malo de m\xED."
-  - nombre: '???:'
+    texto: "Esta no es ninguna broma. Voy a encontrarlo y lo traer\xE9 de vuelta.\r\n"
+  - nombre: 'OJO DERECHO:'
     indicePersonaje: 1
     sprite: {fileID: 0}
-    texto: "No tomar\xE9 tu vida. Tomar\xE9 aquello que te convierte en quien eres."
-  - nombre: '???:'
-    indicePersonaje: 1
-    sprite: {fileID: 0}
-    texto: 'Uno por uno... hasta que solo quede el espacio que dejaron sus nombres.
-
-'
-  - nombre: 'Genesis:'
-    indicePersonaje: 0
-    sprite: {fileID: 0}
-    texto: ' ...acepto.
-
-'
-  - nombre: 
-    indicePersonaje: 0
-    sprite: {fileID: 0}
-    texto: 
+    texto: "\xA1Oh, qu\xE9 ingenua es la mortalidad! Entonces, es mejor que empieces
+      a correr."
   - nombre: 
     indicePersonaje: 0
     sprite: {fileID: 0}
